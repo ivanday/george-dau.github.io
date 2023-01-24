@@ -15,7 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: "Hello. I'm George Dau."
 email: 'george@txdau.com'
-description: "I'm an data analyst and aspiring data scientist from Dallas using data to drive buisness intelligence. Also I have more to type here and am just testing how long this will go. Hopefully I can figure out a better way to do this"
+description: "George Dau"
+self_description: "I'm an data analyst and aspiring data scientist from Dallas using data to drive buisness intelligence. Also I have more to type here and am just testing how long this will go. Hopefully I can figure out a better way to do this"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://george-dau.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: ''
