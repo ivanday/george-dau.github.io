@@ -25,6 +25,7 @@
   <!-- Styles -->
   <link rel="stylesheet" href="{{ "/css/animate.min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="../css/test.css">
 
 </head>
 <body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %}">
@@ -49,8 +50,8 @@
                   max-width: 12%;
                 }
                 </style>
-              
-              <!--<img src="/headshot_circle_small.png" alt="Headshot" class="cover_photo_small" />-->
+
+              <img src="/headshot_circle_small.png" alt="Headshot" class="cover_photo_small" />
               <a class="navbar-brand" href="/">{{ site.admin_name }}</a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
